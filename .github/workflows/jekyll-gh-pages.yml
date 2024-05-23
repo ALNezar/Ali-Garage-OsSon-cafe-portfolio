@@ -49,3 +49,8 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+# Other configurations...
+
+# CSS configuration
+sass:
+  sass_dir: styles
