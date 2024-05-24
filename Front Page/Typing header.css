@@ -1,0 +1,62 @@
+:root {
+  --primary-font: 'Major Mono Display', monospace;
+  --secondary-font: 'Major Mono Display', monospace;
+  --primary-color: #540404;
+  --background-color: #000;
+  --transition-duration: 0.7s;
+  --loader-font-size: 40px;
+  --nav-font-size: 36px;
+  --hover-scale: 40;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.loader-container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0; /* Adjusted to cover entire height */
+  left: 0; /* Cover entire width */
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px;
+}
+
+.loader {
+  text-align: center;
+  background: rgb(0, 0, 0); 
+  color: white; /* Adjusted to ensure text is visible */
+  width: 100%; /* Adjusted to cover entire width */
+}
+
+.loader h1 {
+  font-family: var(--primary-font);
+  font-size: var(--loader-font-size);
+  font-weight: 700;
+  text-transform: uppercase;
+  opacity: 0;
+  animation: textAnimation 1.5s ease-in-out forwards;
+  margin: 0;
+}
+
+/* Additional styles for the loader text */
+.loader h1 em {
+  font-style: normal;
+}
+
+.loader .c-braces {
+  letter-spacing: 10x;
+  vertical-align: middle;
+  font-family: var(--primary-font);
+}
+
+/* Keyframes for the text animation */
+@keyframes textAnimation {
+  0% { opacity: 0; transform: translateY(-20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
