@@ -3,17 +3,17 @@
   left: 0px;
   bottom: 0px;
   top: 100px;
-  background-color: white;
+  background-color: rgb(86, 85, 85);
   width: 101px;
   border-right-width: 1px;
-  border-right-color: rgb(230, 230, 230);
+  border-right-color: #ff004f;
   border-right-style: solid;
   z-index: 200;
   padding-top: 3px;
 }
 
 .sidebar ul li a {
-  color: black;
+  color: rgb(255, 255, 255);
   text-decoration: none;
   font-size: 18px;
   position: relative;
