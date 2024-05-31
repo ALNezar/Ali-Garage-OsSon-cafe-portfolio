@@ -1,162 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="styles/general.css">
-    <link rel="stylesheet" href="styles/header.css">
-    <link rel="stylesheet" href="styles/sidebar.css">
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ali-Garage & OsSon cafe frontpage">
+  <title>
+    Ali-Garage & OsSon cafe
+    </title>
+  <link href="https://fonts.googleapis.com/css?family=Russo+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="Typing header.css"> <!-- Link to external CSS file -->
+  <link rel="stylesheet" href="menu.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
 
 </head>
 <body>
-    <div class="header">
-        <div class="left-section">
-            <a href="index.html">
-                <img src="images/logo.png" class="logo" alt="Logo">
-            </a>
-        </div>
-        <div class="middle-section">
-            <p>Ali Garage & OsSon Cafe</p>
-        </div>
-        <div class="right-section">
-            <p>FAQ</p>
-        </div>
+  <header>
+    <div id="loader" class="loader">
+      <h1 id="codeit"></h1>
     </div>
-    <div class="sidebar">
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </div>
-    <!-- Welcome Section -->
-    <div class="header-text">
-        <div class="column1">
-            <p>Thrift store / Cafe</p>
-            <h1>Welcome to <br>Ali Garage & OsSon Cafe <br>Portfolio</h1>
-        </div>
-        <div class="column2">
-            <img src="images/welcome.jpg" alt="Welcome">
-        </div>
-    </div>
-    <!-- About Section -->
-    <div class="header-text">
-        <div class="column2">
-            <img src="images/welcome.jpg" alt="About">
-        </div>
-        <div class="column1">
-            <p class="about-text">About</p>
-            <p class="description">
-                Ali Garage & OsSon Cafe is a unique combination
-                of a thrift store and a cozy café, located in a vibrant 
-                community setting. Situated on the same premises.
-            </p>
-        </div>
-    </div>
-    <!-- Background Section -->
-    <div class="background">
-        <div>
-            <p class="background-text">Background</p>
-            <div class="background-grid">
-                <div>
-                    <h1>OsSon cafe</h1>
-                    <p class="description">
-                        OsSon Cafe was created out of the owners' family ties to the food and beverage industry
-                        and the owner's personal love for coffee-making. Their father's business served as a source of inspiration,
-                        leading them to carry on the family tradition with the introduction of a coffee shop.
-                        OsSon Cafe was envisioned as a sanctuary for introverts,
-                        a place where they could find solitude or form connections.
-                        The cafe is more than just a place to enjoy coffee—it is a space
-                        designed to foster a sense of tranquility and community, providing an
-                        escape from the daily grind.
-                    </p>
-                </div>
-                <div>
-                    <h1>Ali garage</h1>
-                    <p class="description">
-                        Established in 2016, Ali Garage was founded by its owner based on their personal hobby.
-                        The owner, who is also the sole employee,
-                        aims to provide high-quality clothing at affordable prices and promote the recycling of old
-                        garments for better use. With a commitment to accessibility and environmental consciousness,
-                        Ali Garage strives to make fashion both affordable and eco-friendly for thrift addicts
-                        and budget consumers.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Portfolio Section -->
-    <div class="portfolio">
-        <div>
-            <p class="background-text">Our work</p>
+  </header>
 
-            <div class="portfolio-grid">
-                <div class="work">
-                    <img src="images/thrift.jpg" />
-                    <div class="layer">
-                        <h3>Thrift</h3>
-                        <p>
-                            Provide clothing and household items for low prices while
-                            promoting environmental sustainability through the recycling of
-                            old garments.
-                        </p>
-                        <a href="#"></a>
-                    </div>
-                </div>
-                <div class="work">
-                    <img src="images/cafe.jpg" />
-                    <div class="layer">
-                        <h3>Cafe</h3>
-                        <p>
-                            Provide a comfortable space for introverted individuals to
-                            chill, relax, and meet others.
-                        </p>
-                        <a href="#"></a>
-                    </div>
-                </div>
-                <div class="work">
-                    <img src="images/quality.jpg" />
-                    <div class="layer">
-                        <h3>Best quality</h3>
-                        <p>Provide best quality clothing.</p>
-                        <a href="#"></a>
-                    </div>
-                </div>
-            </div>
-            <a href="https://www.instagram.com/aligarage_" class="btn">See more</a>
-        </div>
-    </div>
-    <!-- Contact Section -->
-    <div class="contact">
-        <div>
-            <div class="portfolio-grid">
-                <div class="contact-left">
-                    <h1>Contact Us</h1>
-                    <p>
-                        <a href="https://www.instagram.com/aligarage_">Instagram: @aligarage_</a>
-                    </p>
-                    <p>
-                        <a href="https://www.facebook.com/profile.php?id=100023557625064">Facebook: @Ali-Garage</a>
-                    </p>
-                    <p>01167610102</p>
-                </div>
-                <div class="contact-right">
-                    <form name="submit-to-google-sheet">
-                        <input type="text" name="Name" placeholder="Your Name" required />
-                        <input type="email" name="email" placeholder="Your Email" required />
-                        <textarea name="Message" rows="6" placeholder="Your message"></textarea>
-                        <button type="submit" class="btn btn2">Submit</button>
-                    </form>
-                    <span id="msg"></span>
-                </div>
-            </div>
-        </div>
-    </div>
+  <div class="nav-wrapper">
+    <nav>
+      <a href="portfolio.html" class="hover-this"><span>Home</span></a>
+      <a href="https://www.instagram.com/aligarage_" class="hover-this"><span>Ali-Garage</span></a>
+      <a href="https://www.instagram.com/ossoncafe" class="hover-this"><span>OSSON CAFE</span></a>
+      <a href="#" class="hover-this"><span>Contact Us</span></a>
+      <div class="cursor"></div>
+    </nav>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typeit/dist/typeit.min.js"></script>
+  <script src="Typing script.js" defer></script>
+  <script src="cursor.js"></script>
 </body>
-<script src="script.js"></script>
 </html>
