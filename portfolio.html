@@ -11,7 +11,6 @@
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/sidebar.css">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
-
 </head>
 <body>
     <div class="header">
@@ -94,7 +93,6 @@
     <div class="portfolio">
         <div>
             <p class="background-text">Our work</p>
-
             <div class="portfolio-grid">
                 <div class="work">
                     <img src="images/thrift.jpg" />
@@ -146,17 +144,44 @@
                     <p>01167610102</p>
                 </div>
                 <div class="contact-right">
-                    <form name="submit-to-google-sheet">
-                        <input type="text" name="Name" placeholder="Your Name" required />
-                        <input type="email" name="email" placeholder="Your Email" required />
-                        <textarea name="Message" rows="6" placeholder="Your message"></textarea>
-                        <button type="submit" class="btn btn2">Submit</button>
+                    <form method="post" action="https://forms.un-static.com/forms/1bfe708c2cbdbce10a66a84ee303ab0dfa4a141d">
+                        <div class="form-group row">
+                            <label for="name" class="col-4 col-form-label">Name</label>
+                            <div class="col-8">
+                                <div class="input-group">
+                                    <div class="input-group-addon">
+                                        <i class="fa fa-user"></i>
+                                    </div>
+                                    <input id="name" name="name" placeholder="Please enter your name" type="text" required="required" class="form-control">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="email" class="col-4 col-form-label">E-mail address</label>
+                            <div class="col-8">
+                                <div class="input-group">
+                                    <div class="input-group-addon">
+                                        <i class="fa fa-envelope"></i>
+                                    </div>
+                                    <input id="email" name="email" placeholder="Your e-mail address" type="text" required="required" class="form-control">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="message" class="col-4 col-form-label">Message</label>
+                            <div class="col-8">
+                                <textarea id="message" name="message" placeholder="Please enter your message" cols="40" rows="10" required="required" class="form-control"></textarea>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="offset-4 col-8">
+                                <button name="submit" type="submit" class="btn btn-primary">Send</button>
+                            </div>
+                        </div>
                     </form>
-                    <span id="msg"></span>
                 </div>
             </div>
         </div>
     </div>
 </body>
-<script src="script.js"></script>
 </html>
