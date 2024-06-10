@@ -223,6 +223,52 @@ form textarea {
   cursor: pointer;
 }
 
+.reservation {
+      margin-left: 50px;
+      margin-right: 50px;
+      padding: 30px 0;
+      margin-top: 50px;
+    }
+
+    .reservation-left {
+      flex-basis: 35%;
+    }
+
+    .reservation-right {
+      flex-basis: 60%;
+    }
+
+    .reservation-left p {
+      margin-top: 30px;
+      color: white;
+    }
+
+    .reservation-left h1 {
+      color: #ff004f;
+    }
+
+    .reservation-right form {
+      width: 100%;
+    }
+
+    .reservation-right form input {
+      width: 100%;
+      border: 0;
+      outline: none;
+      background: #262626;
+      padding: 15px;
+      margin: 15px 0;
+      color: #fff;
+      font-size: 18px;
+      border-radius: 6px;
+    }
+
+    #reservation-msg {
+      color: #62b752;
+      margin-top: -40px;
+      display: block;
+    }
+
 #msg {
   color: #62b752;
   margin-top: -40px;
