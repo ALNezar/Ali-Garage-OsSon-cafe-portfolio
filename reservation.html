@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles/general.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/sidebar.css" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="left-section">
+        <a href="index.html">
+          <img src="images/logo.png" class="logo" alt="Logo" />
+        </a>
+      </div>
+      <div class="middle-section">
+        <p>Ali Garage & OsSon Cafe</p>
+      </div>
+      <div class="right-section">
+        <p>FAQ</p>
+      </div>
+    </div>
+    <div class="sidebar">
+      <ul>
+        <li><a href="portfolio.html">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="p.html">Reservation</a></li>
+      </ul>
+    </div>
+
+    <!---------------------Reservation---------------------->
+    <div class="reservation">
+      <div class="contact">
+        <div class="portfolio-grid">
+          <div class="contact-left">
+            <h1>Reserve a Table</h1>
+            <p>Fill out the form below to reserve a table at our cafe.</p>
+          </div>
+          <div class="contact-right">
+            <form id="reservation-form">
+              <input type="text" name="name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                required
+              />
+              <input
+                type="date"
+                name="date"
+                placeholder="Reservation Date"
+                required
+              />
+              <input
+                type="time"
+                name="time"
+                placeholder="Reservation Time"
+                required
+              />
+
+              <input
+                type="number"
+                name="phone_number"
+                placeholder="Phone number"
+                required
+              />
+              <input
+                type="number"
+                name="guests"
+                placeholder="Number of Guests"
+                required
+              />
+              <button type="submit" class="btn btn2">Reserve</button>
+            </form>
+            <span id="reservation-msg"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
