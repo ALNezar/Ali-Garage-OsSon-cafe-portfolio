@@ -4,10 +4,6 @@
 
 ---
 
-## 🎯 **Our Mission**  
-To create a welcoming space where people can:  
-- Find sustainable thrift items 🛍️  
-- Enjoy locally brewed coffee and artisanal snacks ☕🥐  
 
 ---
 
