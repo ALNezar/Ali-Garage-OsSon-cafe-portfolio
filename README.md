@@ -1,9 +1,12 @@
 # 👘☕ **Ali Garage & OsSon Café Portfolio**  
 
-**Ali Garage & OsSon Café** is a unique and vibrant fusion of a thrift store and a cozy café, located in Parit Raja. Whether you’re hunting for rare thrift gems or simply craving a warm cup of coffee, we've got you covered. ☺️👍  
 
+This is profolio made for Ali garage and OsSon cafe
+
+
+
+**Ali Garage & OsSon Café** is a unique and vibrant fusion of a thrift store and a  café, located in Parit Raja.
 ---
-
 
 ---
 
@@ -19,10 +22,10 @@
 
 ---
 
-## 🛍️ **What We Offer**  
+## 🛍️ **What they Offer**  
 
 ### **Ali Garage - Thrift Shop**  
-- Affordable pre-loved items 🧥👚  
+- Affordable thrifts 🧥👚  
 - Rare collectibles and vintage treasures 🎁  
 - Weekly drop-offs of new items 🚛  
 
@@ -33,7 +36,7 @@
 
 ---
 
-## 🚀 **Connect with Us**  
+## 🚀 **Connect with them**  
 
 - **Website:** [Ali Garage & OsSon Café](https://alnezar.github.io/Ali-Garage-OsSon-cafe-portfolio/)  
 - **Instagram:**  
