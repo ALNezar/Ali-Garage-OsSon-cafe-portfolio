@@ -1,6 +1,6 @@
 # 🏪 Ali Garage & OsSon Café  
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)  
+![License](https://img.shields.io/badge/license-MIT-blue.svg\https://opensource.org/license/MIT)  
 ![Stars](https://img.shields.io/github/stars/alnezar/Ali-Garage-OsSon-cafe-portfolio)  
 ![Last Commit](https://img.shields.io/github/last-commit/alnezar/Ali-Garage-OsSon-cafe-portfolio)  
 
