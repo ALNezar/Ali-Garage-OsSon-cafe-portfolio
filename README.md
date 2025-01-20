@@ -1,14 +1,19 @@
-# 🏪 Ali Garage & OsSon Café  
+# 🏪 Ali Garage & OsSon Café 👘✖️☕
 ![License](https://img.shields.io/badge/license-MIT-blue.svg) 
-[MIT License](https://opensource.org/license/MIT) 
 ![Stars](https://img.shields.io/github/stars/alnezar/Ali-Garage-OsSon-cafe-portfolio)  
 ![Last Commit](https://img.shields.io/github/last-commit/alnezar/Ali-Garage-OsSon-cafe-portfolio)  
 
 ## 📱 Follow them
 
+[![Website](https://img.shields.io/badge/Visit_Website-000000?style=for-the-badge&logo=googlechrome&logoColor=white&scale=6)](https://alnezar.github.io/Ali-Garage-OsSon-cafe-portfolio/)
+ 
+
+---
 [![Ali Garage Instagram](https://img.shields.io/badge/Ali_Garage-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/aligarage_)  
+
+---
 [![OsSon Café Instagram](https://img.shields.io/badge/OsSon_Café-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/ossoncafe)  
-[![Website](https://img.shields.io/badge/Visit_Website-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://alnezar.github.io/Ali-Garage-OsSon-cafe-portfolio/)  
+
 
 ---
 
@@ -20,7 +25,12 @@ We are a group of students who developed a website for **Ali Garage & OsSon Caf�
 
 ## 📍 Location  
 
-[![Google Maps](https://img.shields.io/badge/View_on-Google_Maps-blue?style=for-the-badge&logo=googlemaps&logoColor=white)](https://www.google.com/maps/place/25a+Tingkat+1,+Jalan+Universiti+4,+86400+Parit+Raja,+Johor,+Malaysia)  
+**Find Us Here:**  
+[![Open in Google Maps](https://img.shields.io/badge/Open_in-Google_Maps-4285F4?style=for-the-badge&logo=googlemaps&logoColor=white)](https://maps.app.goo.gl/hdGYqveEA2PzPk9aA)  
+
+**ALI GARAGE (Bundle Store):**  
+25a Tingkat 1, Jalan Universiti 4,  
+86400 Parit Raja, Johor, Malaysia  
 
 
 
@@ -38,7 +48,7 @@ We are a group of students who developed a website for **Ali Garage & OsSon Caf�
 
 ---
 
-## 🛍️ What We Offer  
+## 🛍️ What they Offer  
 
 ### **Ali Garage** 🧥  
 - **Vintage Clothing**: Stylish finds at student-friendly prices.  
@@ -57,8 +67,7 @@ We are a group of students who developed a website for **Ali Garage & OsSon Caf�
 ### **Tech Stack**  
 - **HTML5**  
 - **CSS3**  
-- **JavaScript**  
-- **Bootstrap 5**  
+- **JavaScript**    
 - **GitHub Pages**  
 
 ---
