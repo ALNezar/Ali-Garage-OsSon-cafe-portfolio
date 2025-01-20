@@ -19,7 +19,8 @@
 
 ## 🌟 About them  
 
-We are a group of students who developed a website for **Ali Garage & OsSon Café**, a unique spot in Parit Raja that combines a thrift store with a cozy café. Whether you're hunting for vintage gems or craving a great cup of coffee, this is the place to be!
+We are a group of students who developed a website for **Ali Garage & OsSon Café**, a unique spot in Parit Raja that combines a thrift store with a nice cozy café.
+if you want cool vintage finds or just good coffee, this is the place to check out! 👍
 
 ---
 
